@@ -1,0 +1,65 @@
+.album-container {
+    text-align: center;
+    padding-left: 21%;
+    padding-right: 21%;
+    
+  }
+#main-image {
+    max-width: 500px; 
+    max-height: 600px; 
+    object-fit: cover;
+  }
+  
+  .image-viewer {
+    margin-bottom: 20px;
+  }
+  
+  .navigation button {
+    margin: 5px;
+  }
+  
+  .film-strip {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid black; 
+    padding:10px; 
+}
+
+.film-strip img {
+    max-width: 100px;
+    height: auto;
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 2px; 
+    border: 1px solid black;
+}
+
+.film-strip img.active {
+    border: 1px solid red; /* Highlight the active image with a border */
+}
+
+  
+  #navigation-buttons button {
+    background-color: rgb(0, 179, 255);
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#navigation-buttons button:hover {
+    background-color: #45a049;
+}
+
+#navigation-buttons button:focus {
+    outline: none;
+}
+
+
